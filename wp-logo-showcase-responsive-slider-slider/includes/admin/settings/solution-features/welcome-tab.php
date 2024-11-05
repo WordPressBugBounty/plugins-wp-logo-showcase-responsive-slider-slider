@@ -14,15 +14,19 @@ if ( ! defined( 'ABSPATH' ) ) {
 
 <div id="wpls_welcome_tabs" class="wpls-vtab-cnt wpls_welcome_tabs wpls-clearfix">
 	
-	<div class="wpls-deal-offer-wrap">
+	<div class="wpls-black-friday-banner-wrp">
+		<a href="<?php echo esc_url( WPLS_PLUGIN_BUNDLE_LINK ); ?>" target="_blank"><img style="width: 100%" src="<?php echo esc_url( WPLS_URL ); ?>assets/images/black-friday-banner.png" alt="black-friday-banner" /></a>
+	</div>
+
+	<!-- <div class="wpls-deal-offer-wrap">
 		<h3 style="font-weight: bold; font-size: 30px; color:#ffef00; text-align:center; margin: 15px 0 5px 0;">Why Invest Time On Free Version?</h3>
 
 		<h3 style="font-size: 18px; text-align:center; margin:0; color:#fff;">Explore WP Blog and Widgets Pro with Essential Bundle Free for 5 Days.</h3>			
 
 		<div class="wpls-deal-free-offer">
-			<a href="<?php echo esc_url( WPLS_PLUGIN_BUNDLE_LINK ); ?>" target="_blank" class="wpls-sf-free-btn"><span class="dashicons dashicons-cart"></span> Try Pro For 5 Days Free</a>
+			<a href="<?php //echo esc_url( WPLS_PLUGIN_BUNDLE_LINK ); ?>" target="_blank" class="wpls-sf-free-btn"><span class="dashicons dashicons-cart"></span> Try Pro For 5 Days Free</a>
 		</div>
-	</div>
+	</div> -->
 
 	<!-- Start - Industry Wise Solutions -->
 	<div class="wpls-sf-solutions-section wpls-sf-top-rsn wpls-sf-left">

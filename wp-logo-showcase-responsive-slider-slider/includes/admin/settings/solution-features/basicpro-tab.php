@@ -12,7 +12,7 @@ if ( ! defined( 'ABSPATH' ) ) {
 	exit; // Exit if accessed directly
 } ?>
 <div id="wpls_basic_tabs" class="wpls-vtab-cnt wpls_basic_tabs wpls-clearfix">
-	<h3 class="wpls-basic-heading">Compare <span class="wpls-blue">"Logo Showcase Responsive Slider"</span> Basic VS Pro</h3>
+	
 
 	<!-- <div class="wpls-deal-offer-wrap">
 		<div class="wpls-deal-offer"> 
@@ -28,16 +28,22 @@ if ( ! defined( 'ABSPATH' ) ) {
 		</div>
 	</div> -->
 
-	<div class="wpls-deal-offer-wrap">
+	<!-- <div class="wpls-deal-offer-wrap">
 		<div class="wpls-deal-offer"> 
 			<div class="wpls-inn-deal-offer">
 				<h3 class="wpls-inn-deal-hedding"><span>Try WP Logo Showcase Responsive Slider and Carousel Pro</span> in Essential Bundle Free For 5 Days.</h3>
 			</div>
 			<div class="wpls-deal-free-offer">
-				<a href="<?php echo esc_url( WPLS_PLUGIN_BUNDLE_LINK ); ?>" target="_blank" class="wpls-sf-free-btn"><span class="dashicons dashicons-cart"></span> Try Pro For 5 Days Free</a>
+				<a href="<?php // echo esc_url( WPLS_PLUGIN_BUNDLE_LINK ); ?>" target="_blank" class="wpls-sf-free-btn"><span class="dashicons dashicons-cart"></span> Try Pro For 5 Days Free</a>
 			</div>
 		</div>
+	</div> -->
+
+	<div class="wpls-black-friday-banner-wrp">
+		<a href="<?php echo esc_url( WPLS_PLUGIN_BUNDLE_LINK ); ?>" target="_blank"><img style="width: 100%" src="<?php echo esc_url( WPLS_URL ); ?>assets/images/black-friday-banner.png" alt="black-friday-banner" /></a>
 	</div>
+
+	<h3 class="wpls-basic-heading">Compare <span class="wpls-blue">"Logo Showcase Responsive Slider"</span> Basic VS Pro</h3>
 
 	<table class="wpos-plugin-pricing-table">
 		<colgroup></colgroup>
@@ -215,15 +221,19 @@ if ( ! defined( 'ABSPATH' ) ) {
 		</div>
 	</div> -->
 
-	<div class="wpls-deal-offer-wrap">
+	<!-- <div class="wpls-deal-offer-wrap">
 		<div class="wpls-deal-offer"> 
 			<div class="wpls-inn-deal-offer">
 				<h3 class="wpls-inn-deal-hedding"><span>Try WP Logo Showcase Responsive Slider and Carousel Pro</span> in Essential Bundle Free For 5 Days.</h3>
 			</div>
 			<div class="wpls-deal-free-offer">
-				<a href="<?php echo esc_url( WPLS_PLUGIN_BUNDLE_LINK ); ?>" target="_blank" class="wpls-sf-free-btn"><span class="dashicons dashicons-cart"></span> Try Pro For 5 Days Free</a>
+				<a href="<?php // echo esc_url( WPLS_PLUGIN_BUNDLE_LINK ); ?>" target="_blank" class="wpls-sf-free-btn"><span class="dashicons dashicons-cart"></span> Try Pro For 5 Days Free</a>
 			</div>
 		</div>
+	</div> -->
+
+	<div class="wpls-black-friday-banner-wrp">
+		<a href="<?php echo esc_url( WPLS_PLUGIN_BUNDLE_LINK ); ?>" target="_blank"><img style="width: 100%" src="<?php echo esc_url( WPLS_URL ); ?>assets/images/black-friday-banner.png" alt="black-friday-banner" /></a>
 	</div>
 
 </div>

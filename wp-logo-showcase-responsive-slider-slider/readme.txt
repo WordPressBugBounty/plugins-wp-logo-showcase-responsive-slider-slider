@@ -2,8 +2,8 @@
 Contributors: wponlinesupport, anoopranawat, pratik-jain, patelketan, piyushpatel123
 Tags: logo slider, client logo carousel, image carousel, logo showcase, Responsive logo slider
 Requires at least: 4.0
-Tested up to: 6.6.1
-Stable tag: 3.8.1
+Tested up to: 6.6.2
+Stable tag: 3.8.2
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -137,6 +137,9 @@ Where limit define the number of posts to display.
 7. Gutenberg block preview and options.
 
 == Changelog ==
+
+= 3.8.2 (05 Nov 2024) =
+* [*] Check compatibility with WordPress version 6.6.2
 
 = 3.8.1 (24 July 2024) =
 * [*] Check compatibility with WordPress version 6.6.1

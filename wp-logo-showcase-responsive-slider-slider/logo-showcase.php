@@ -6,7 +6,7 @@
  * Author: WP OnlineSupport, Essential Plugin
  * Text Domain: wp-logo-showcase-responsive-slider-slider
  * Domain Path: /languages/
- * Version: 3.8.1
+ * Version: 3.8.2
  * Author URI: https://www.essentialplugin.com/wordpress-plugin/wp-logo-showcase-responsive-slider/
  *
  * @package WP Logo Showcase Responsive Slider
@@ -18,7 +18,7 @@ if ( ! defined( 'ABSPATH' ) ) {
 }
 
 if( ! defined( 'WPLS_VERSION' ) ) {
-	define( 'WPLS_VERSION', '3.8.1' ); // Version of plugin
+	define( 'WPLS_VERSION', '3.8.2' ); // Version of plugin
 }
 
 if( ! defined( 'WPLS_DIR' ) ) {
@@ -54,11 +54,11 @@ if( ! defined( 'WPLS_PLUGIN_LINK_UPGRADE' ) ) {
 }
 
 if( ! defined( 'WPLS_PLUGIN_BUNDLE_LINK' ) ) {
-	define('WPLS_PLUGIN_BUNDLE_LINK', 'https://www.wponlinesupport.com/checkout/?edd_action=add_to_cart&download_id=14791&edd_options[price_id]=7&wpos_cart_flush=1&utm_source=WP&utm_medium=Logoshowcase&utm_campaign=Welcome-Screen'); // Plugin link
+	define('WPLS_PLUGIN_BUNDLE_LINK', 'https://www.essentialplugin.com/pricing/?utm_source=WP&utm_medium=Logoshowcase&utm_campaign=Welcome-Screen'); // Plugin link
 }
 
 if( ! defined( 'WPLS_PLUGIN_LINK_UNLOCK' ) ) {
-	define('WPLS_PLUGIN_LINK_UNLOCK', 'https://www.wponlinesupport.com/checkout/?edd_action=add_to_cart&download_id=14791&edd_options[price_id]=7&wpos_cart_flush=1&utm_source=WP&utm_medium=Logoshowcase&utm_campaign=Features-PRO'); // Plugin link
+	define('WPLS_PLUGIN_LINK_UNLOCK', 'https://www.essentialplugin.com/pricing/?utm_source=WP&utm_medium=Logoshowcase&utm_campaign=Features-PRO'); // Plugin link
 }
 
 /**

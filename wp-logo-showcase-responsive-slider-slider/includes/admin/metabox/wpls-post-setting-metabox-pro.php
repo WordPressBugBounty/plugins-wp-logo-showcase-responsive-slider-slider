@@ -13,11 +13,15 @@ if ( ! defined( 'ABSPATH' ) ) {
 
 <!-- <div class="pro-notice"><strong><?php //echo sprintf( __( 'Utilize this <a href="%s" target="_blank">Premium Features (With Risk-Free 30 days money back guarantee)</a> to get best of this plugin with Annual or Lifetime bundle deal.', 'wp-logo-showcase-responsive-slider-slider'), WPLS_PLUGIN_LINK_UNLOCK); ?></strong></div> -->
 
-<div class="pro-notice">
+	<div class="wpls-black-friday-banner-wrp">
+		<a href="<?php echo esc_url( WPLS_PLUGIN_LINK_UNLOCK ); ?>" target="_blank"><img style="width: 100%" src="<?php echo esc_url( WPLS_URL ); ?>assets/images/black-friday-banner.png" alt="black-friday-banner" /></a>
+	</div>
+
+<!-- <div class="pro-notice">
 	<strong>
-		<?php echo sprintf( __( 'Try All These <a href="%s" target="_blank">PRO Features in Essential Bundle Free For 5 Days.</a>', 'wp-logo-showcase-responsive-slider-slider'), WPLS_PLUGIN_LINK_UNLOCK); ?>
+		<?php //echo sprintf( __( 'Try All These <a href="%s" target="_blank">PRO Features in Essential Bundle Free For 5 Days.</a>', 'wp-logo-showcase-responsive-slider-slider'), WPLS_PLUGIN_LINK_UNLOCK); ?>
 	</strong>
-</div>
+</div> -->
 
 <table class="form-table wpls-metabox-table">
 	<tbody>
