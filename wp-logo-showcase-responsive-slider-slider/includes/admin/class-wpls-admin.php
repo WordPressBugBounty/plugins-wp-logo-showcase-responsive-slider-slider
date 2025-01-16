@@ -75,10 +75,10 @@ class Wpls_Admin {
 		add_submenu_page( 'edit.php?post_type='.WPLS_POST_TYPE, __( 'How it works, our plugins and offers', 'wp-logo-showcase-responsive-slider-slider' ), __( 'How It Works', 'wp-logo-showcase-responsive-slider-slider' ), 'manage_options', 'wpls-designs', array( $this, 'wpls_designs_page' ) );
 
 		// Solutions & Features Page
-		add_submenu_page( 'edit.php?post_type='.WPLS_POST_TYPE, __( 'Overview - Logo Showcase Responsive Slider', 'wp-logo-showcase-responsive-slider-slider' ), '<span style="color:#2ECC71">'. __( 'Overview', 'wp-logo-showcase-responsive-slider-slider' ).'</span>', 'manage_options', 'wpls-solutions-features', array( $this, 'wpls_solutions_features_page' ) );
+		add_submenu_page( 'edit.php?post_type='.WPLS_POST_TYPE, __( 'Overview - Logo Showcase Responsive Slider', 'wp-logo-showcase-responsive-slider-slider' ), __( 'Overview', 'wp-logo-showcase-responsive-slider-slider' ), 'manage_options', 'wpls-solutions-features', array( $this, 'wpls_solutions_features_page' ) );
 
 		// Upgrade To PRO Page
-		add_submenu_page( 'edit.php?post_type='.WPLS_POST_TYPE, __( 'Upgrade To PRO - Logo Showcase Responsive Slider', 'wp-logo-showcase-responsive-slider-slider' ), '<span style="color:#ff2700">'.__( 'Upgrade To PRO – Early Back Friday Deals', 'wp-logo-showcase-responsive-slider-slider' ).'</span>', 'manage_options', 'wpls-premium', array( $this, 'wpls_premium_page' ) );
+		add_submenu_page( 'edit.php?post_type='.WPLS_POST_TYPE, __( 'Upgrade To PRO - Logo Showcase Responsive Slider', 'wp-logo-showcase-responsive-slider-slider' ), '<span style="color:#2ECC71">'.__( 'Upgrade To PRO', 'wp-logo-showcase-responsive-slider-slider' ).'</span>', 'manage_options', 'wpls-premium', array( $this, 'wpls_premium_page' ) );
 	}
 
 	/**

@@ -14,9 +14,9 @@ if ( ! defined( 'ABSPATH' ) ) {
 
 <div id="wpls_themes_tabs" class="wpls-vtab-cnt wpls_themes_tabs wpls-clearfix">
 	
-	<div class="wpls-black-friday-banner-wrp">
-		<a href="<?php echo esc_url( WPLS_PLUGIN_BUNDLE_LINK ); ?>" target="_blank"><img style="width: 100%" src="<?php echo esc_url( WPLS_URL ); ?>assets/images/black-friday-banner.png" alt="black-friday-banner" /></a>
-	</div>
+	<!-- <div class="wpls-black-friday-banner-wrp">
+		<a href="<?php // echo esc_url( WPLS_PLUGIN_BUNDLE_LINK ); ?>" target="_blank"><img style="width: 100%" src="<?php // echo esc_url( WPLS_URL ); ?>assets/images/black-friday-banner.png" alt="black-friday-banner" /></a>
+	</div> -->
 
 	<div class="wpls-features-section">
 		<div class="wpls-center">
@@ -75,8 +75,8 @@ if ( ! defined( 'ABSPATH' ) ) {
 		</div>
 	</div> -->
 
-	<div class="wpls-black-friday-banner-wrp">
-		<a href="<?php echo esc_url( WPLS_PLUGIN_BUNDLE_LINK ); ?>" target="_blank"><img style="width: 100%" src="<?php echo esc_url( WPLS_URL ); ?>assets/images/black-friday-banner.png" alt="black-friday-banner" /></a>
-	</div>
+	<!-- <div class="wpls-black-friday-banner-wrp">
+		<a href="<?php // echo esc_url( WPLS_PLUGIN_BUNDLE_LINK ); ?>" target="_blank"><img style="width: 100%" src="<?php // echo esc_url( WPLS_URL ); ?>assets/images/black-friday-banner.png" alt="black-friday-banner" /></a>
+	</div> -->
 
 </div>

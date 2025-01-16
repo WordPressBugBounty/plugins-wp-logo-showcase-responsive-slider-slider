@@ -14,9 +14,9 @@ if ( ! defined( 'ABSPATH' ) ) {
 
 <div id="wpls_unlock_tabs" class="wpls-vtab-cnt wpls_unlock_tabs wpls-clearfix">
 
-	<div class="wpls-black-friday-banner-wrp">
-		<a href="<?php echo esc_url( WPLS_PLUGIN_BUNDLE_LINK ); ?>" target="_blank"><img style="width: 100%" src="<?php echo esc_url( WPLS_URL ); ?>assets/images/black-friday-banner.png" alt="black-friday-banner" /></a>
-	</div>
+	<!-- <div class="wpls-black-friday-banner-wrp">
+		<a href="<?php // echo esc_url( WPLS_PLUGIN_BUNDLE_LINK ); ?>" target="_blank"><img style="width: 100%" src="<?php // echo esc_url( WPLS_URL ); ?>assets/images/black-friday-banner.png" alt="black-friday-banner" /></a>
+	</div> -->
 
 	<h2 class="wpls-plugin-list">Bundle Deal Details</h2>
 	<table class="wpos-plugin-list">
