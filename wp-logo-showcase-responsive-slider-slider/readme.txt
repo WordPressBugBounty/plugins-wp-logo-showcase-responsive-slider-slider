@@ -1,13 +1,13 @@
 ﻿=== Logo Slider, Logo Showcase, Logo Carousel, Logo Gallery and Client Logo ===
-Contributors: wponlinesupport, anoopranawat, pratik-jain, patelketan, piyushpatel123
+Contributors: essentialplugin
 Tags: logo slider, client logo carousel, image carousel, logo showcase, Responsive logo slider
 Requires at least: 4.0
-Tested up to: 6.7.1
-Stable tag: 3.8.3
+Tested up to: 6.8.1
+Stable tag: 3.8.4
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
-Logo Slider and Logo Carousel is The Best Responsive Plugin for Logo Showcase, Logo Carousel and display clients logos. Shortcode Generator with preview. Also added Gutenberg block support.
+Logo Slider and Logo Carousel is The best responsive plugin for logo showcase, logo carousel and display logos with shortcode and Gutenberg block.
 
 == Description ==
 
@@ -137,6 +137,9 @@ Where limit define the number of posts to display.
 7. Gutenberg block preview and options.
 
 == Changelog ==
+
+= 3.8.4 (15, May 2025) =
+* [*] Check compatibility with WordPress version 6.8.1
 
 = 3.8.3 (16, January 2024) =
 * [*] Check compatibility with WordPress version 6.7.1

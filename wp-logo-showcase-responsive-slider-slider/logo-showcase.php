@@ -3,14 +3,14 @@
  * Plugin Name: WP Logo Showcase Responsive Slider and Carousel
  * Plugin URI: https://www.essentialplugin.com/wordpress-plugin/wp-logo-showcase-responsive-slider/
  * Description: Easy to add and display Logo Showcase Responsive Slider on your website. Also added Gutenberg block support.
- * Author: WP OnlineSupport, Essential Plugin
+ * Author: Essential Plugin
  * Text Domain: wp-logo-showcase-responsive-slider-slider
  * Domain Path: /languages/
- * Version: 3.8.3
- * Author URI: https://www.essentialplugin.com/wordpress-plugin/wp-logo-showcase-responsive-slider/
+ * Version: 3.8.4
+ * Author URI: https://www.essentialplugin.com
  *
  * @package WP Logo Showcase Responsive Slider
- * @author WP OnlineSupport
+ * @author Essential Plugin
  */
 
 if ( ! defined( 'ABSPATH' ) ) {
@@ -18,7 +18,7 @@ if ( ! defined( 'ABSPATH' ) ) {
 }
 
 if( ! defined( 'WPLS_VERSION' ) ) {
-	define( 'WPLS_VERSION', '3.8.3' ); // Version of plugin
+	define( 'WPLS_VERSION', '3.8.4' ); // Version of plugin
 }
 
 if( ! defined( 'WPLS_DIR' ) ) {
