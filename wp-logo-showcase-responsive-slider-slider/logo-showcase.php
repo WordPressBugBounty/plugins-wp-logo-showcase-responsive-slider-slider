@@ -6,7 +6,7 @@
  * Author: Essential Plugin
  * Text Domain: wp-logo-showcase-responsive-slider-slider
  * Domain Path: /languages/
- * Version: 3.8.5
+ * Version: 3.8.7
  * Author URI: https://essentialplugin.com
  *
  * @package WP Logo Showcase Responsive Slider
@@ -18,7 +18,7 @@ if ( ! defined( 'ABSPATH' ) ) {
 }
 
 if( ! defined( 'WPLS_VERSION' ) ) {
-	define( 'WPLS_VERSION', '3.8.5' ); // Version of plugin
+	define( 'WPLS_VERSION', '3.8.7' ); // Version of plugin
 }
 if ( ! defined( 'WPLS_SLUG' ) ) {
 	define( 'WPLS_SLUG', 'wp-logo-showcase-responsive-slider' ); // Slug of plugin
@@ -230,7 +230,7 @@ function wpos_analytics_anl23_load() {
 							'id'			=> 23,
 							'file'			=> plugin_basename( __FILE__ ),
 							'name'			=> 'WP Logo Showcase Responsive Slider',
-							'slug'			=> WPLS_SLUG,
+							'slug'			=> 'wp-logo-showcase-responsive-slider',
 							'type'			=> 'plugin',
 							'menu'			=> 'edit.php?post_type=logoshowcase',
 							'redirect_page'	=> 'edit.php?post_type=logoshowcase&page=wpls-solutions-features',
